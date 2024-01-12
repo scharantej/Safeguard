@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Content Moderation Results</title>
+</head>
+<body>
+<h1>Content Moderation Results</h1>
+{% if safe %}
+<p>The content is safe.</p>
+{% else %}
+<p>The content violates Google's safety policies.</p>
+{% endif %}
+</body>
+</html>
+
